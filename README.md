@@ -1,9 +1,6 @@
 # Cognitive Dual-System Multi-Agent
 ### A Computational Implementation of Dual-Process Theory & Dissonance-Driven Metacognitive Consolidation
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > **"Can we build autonomous AI systems that know *when to doubt themselves* and *when to allocate compute*?"**  
 > 本專案將認知心理學的 **雙系統理論（Dual-Process Theory, System 1 / System 2）**、**費斯汀格認知失調（Cognitive Dissonance）** 與 **元認知記憶固化（Metacognitive Consolidation）** 完整計算化，構建出一套具備自適應算力調配與抗辯消解能力的多智能體架構（Multi-Agent System）。
@@ -54,12 +51,18 @@ https://github.com/user-attachments/assets/8ed7de73-7823-46e6-8531-3f8ed3c94a0f
 ## 補充
 
 超參數調節說明：
+
 1.喚醒敏感度閾值 ($\theta$)：控制前額葉抑制閾值。$\theta$ 愈高，系統愈趨向謹慎、愈容易喚醒 System 2 進行深度查驗。
+
 2.語意熵值敏感係數：放大推論模糊度對失調張力 $\Delta$ 的貢獻度。
+
 3.對抗性審查開關 (Devil's Advocate)：啟用後強制在推論邊界生成反事實條件，執行邊界壓力測試。
 
 
 未來演進路線：
+
 1.LLM API 接軌：整合 LangGraph，以微調後的 SLM（如 Llama-3-8B）擔任 System 1，前緣推論模型（如 o1 / Claude 3.5 Sonnet）擔任 System 2。
+
 2.向量化直覺記憶庫：整合 ChromaDB / Qdrant，將記憶固化成果自動向量化索引，動態更新 System 1 的檢索增強先驗。
+
 3.工業場景落地驗證：應用於循環經濟中多變數廢棄物分類之因果稽核與非線性物流動態調度。
