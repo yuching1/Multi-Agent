@@ -63,6 +63,5 @@ https://github.com/user-attachments/assets/8ed7de73-7823-46e6-8531-3f8ed3c94a0f
 
 1.LLM API 接軌：整合 LangGraph，以微調後的 SLM（如 Llama-3-8B）擔任 System 1，前緣推論模型（如 o1 / Claude 3.5 Sonnet）擔任 System 2。
 
-2.向量化直覺記憶庫：整合 ChromaDB / Qdrant，將記憶固化成果自動向量化索引，動態更新 System 1 的檢索增強先驗。
+2.向量化直覺記憶庫：整合 ChromaDB / Qdrant，將記憶固化成果自動向量化索引，動態更新 System 1 檢索增強先驗。
 
-3.工業場景落地驗證：應用於循環經濟中多變數廢棄物分類之因果稽核與非線性物流動態調度。
