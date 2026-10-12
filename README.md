@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/8ed7de73-7823-46e6-8531-3f8ed3c94a0f
 ## 💡 研究動機與核心假設
 
 現行 LLM 與 Multi-Agent 系統面臨兩大核心瓶頸：
-1. **算力浪費**：無論任務輕重，一律調用昂貴的大模型跑完整 CoT（Chain of Thought），缺乏生物大腦的認知節能彈性。
+1. **算力浪費**：無論任務輕重，一律調用昂貴的模型跑完整 CoT（Chain of Thought），缺乏生物大腦的認知節能彈性。
 2. **缺乏深層自我懷疑機制**：多數 Agent 在遇到邏輯衝突時，依賴表面式的加權投票，抹煞了邊界處的關鍵因果矛盾。
 
 ### 核心理論映射 (Psychological Mapping to Computation)
