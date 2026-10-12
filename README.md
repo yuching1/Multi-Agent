@@ -39,11 +39,11 @@ https://github.com/user-attachments/assets/8ed7de73-7823-46e6-8531-3f8ed3c94a0f
 
 | 基準測試題目 | 心理學領域 | 認知陷阱 / 機制 | 系統響應機制 |
 | :--- | :--- | :--- | :--- |
-| **球棒與球問題 (Bat and Ball)** | 行為經濟學 (CRT) | 屬性替代偏誤 (Attribute Substitution) | 觸發失調 $\rightarrow$ 喚醒 System 2 代數求解 |
-| **琳達問題 (Linda Problem)** | 代表性啟發式 | 合取謬誤 ($P(A \cap B) > P(A)$) | 集合論剪枝，消除語意相符度混淆 |
-| **華生選擇任務 (Wason Task)** | 演繹推理 / 假設檢驗 | 確認偏誤 (Confirmation Bias) | 對抗 Agent 介入，執行波普爾否證推演 |
+| **球棒與球問題** | 行為經濟學 (CRT) | 屬性替代偏誤 (Attribute Substitution) | 觸發失調 $\rightarrow$ 喚醒 System 2 代數求解 |
+| **琳達問題** | 代表性啟發式 | 合取謬誤 ($P(A \cap B) > P(A)$) | 集合論剪枝，消除語意相符度混淆 |
+| **華生選擇任務** | 演繹推理 / 假設檢驗 | 確認偏誤 (Confirmation Bias) | 對抗 Agent 介入，執行波普爾否證推演 |
 | **醫學篩檢與罕見病** | 貝氏推論 | 基本比率忽略 (Base Rate Neglect) | 展開頻率樹狀分析，校準後驗機率 |
-| **專案沉沒成本** | 前景理論 (Prospect Theory) | 沉沒成本誤區與承諾升級 | 強制歸零歷史支出，回歸邊際效益模型 |
+| **專案沉沒成本** | 前景理論 | 沉沒成本誤區與承諾升級 | 強制歸零歷史支出，回歸邊際效益模型 |
 | **常規物流調運** | 實務運籌管理 | 常規無偏誤操作 (SOP) | **System 1 綠燈直行，節省 95% 算力** |
 
 ---
