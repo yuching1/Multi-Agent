@@ -17,18 +17,18 @@ https://github.com/user-attachments/assets/8ed7de73-7823-46e6-8531-3f8ed3c94a0f
 
 ---
 
-## 💡 研究動機與核心假設 (Core Hypothesis)
+## 💡 研究動機與核心假設
 
 現行 LLM 與 Multi-Agent 系統面臨兩大核心瓶頸：
-1. **靜態算力浪費（Static Compute Waste）**：無論任務輕重，一律調用昂貴的大模型跑完整 CoT（Chain of Thought），缺乏生物大腦的認知節能彈性。
-2. **缺乏深層自我懷疑機制**：多數 Agent 在遇到邏輯衝突時，依賴表面式的加權投票（Majority Voting），抹煞了邊界處的關鍵因果矛盾。
+1. **算力浪費**：無論任務輕重，一律調用昂貴的大模型跑完整 CoT（Chain of Thought），缺乏生物大腦的認知節能彈性。
+2. **缺乏深層自我懷疑機制**：多數 Agent 在遇到邏輯衝突時，依賴表面式的加權投票，抹煞了邊界處的關鍵因果矛盾。
 
 ### 核心理論映射 (Psychological Mapping to Computation)
-- **System 1 (直覺代理人)**：模擬啟發式思考（Heuristics），以微秒級延遲與低耗能快速輸出先驗假設。
-- **認知失調張量引擎 (Cognitive Dissonance Tensor Engine)**：量化「語意熵值（Entropy）」與「先驗邏輯衝突（Prior Conflict）」，決定是否打破認知衡定。
+- **System 1 (直覺代理人)**：模擬啟發式思考，以微秒級延遲與低耗能快速輸出先驗假設。
+- **認知失調張量引擎**：量化「語意熵值（Entropy）」與「先驗邏輯衝突（Prior Conflict）」，決定是否打破認知衡定。
 - **System 2 (審思代理人)**：以思維樹（Tree-of-Thought, ToT）展開形式化因果推導與分支剪枝。
-- **對抗性審查 Agent (Devil's Advocate)**：生成反事實情境（Counterfactuals），嚴格檢驗確認偏誤。
-- **經驗固化閉環 (Consolidation)**：模擬人類睡眠時的記憶重構，將深思後的因果規則回填至 System 1，實現低成本持續演化。
+- **對抗性審查 Agent (Devil's Advocate)**：生成反事實情境，嚴格檢驗確認偏誤。
+- **經驗固化閉環**：模擬人類睡眠時的記憶重構，將深思後的因果規則回填至 System 1，實現低成本持續演化。
 
 ---
 
